@@ -55,6 +55,6 @@ try:
 except Exception as ex:
     print(ex)
 finally:
-    driver.close()
+    driver.close() #закрываем драйвер
     driver.quit()
 

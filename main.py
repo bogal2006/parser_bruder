@@ -68,5 +68,5 @@ except Exception as ex:
 finally:
     driver.close()  # закрываем драйвер
     driver.quit()
-    df = pd.DataFrame(data=result_dict)
+    df = pd.DataFrame(data=result_dict)  #
     df.to_csv('result.csv')
